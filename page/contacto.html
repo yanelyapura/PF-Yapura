@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
+    <title>Contacto</title>
     <link rel="shortcut icon" href="../img/icono_violeta.png">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../scss/estilos.scss">
@@ -13,22 +13,19 @@
 </head>
 
 <body>
-    <header>
-        <div class="upper-container">
-            <img src="../img/log principal.jpg" alt="Cosmética" class="logo">
+    <header class="header">
+        <div class="logo_wrapper">
+            <img class="logo_img" src="../img/logo.png" alt="">
         </div>
-        <div class="lower-container">
-            <nav class="menu">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./donde_encontrarnos.html">Donde encontrarnos</a></li>
-                    <li><a href="./productos.html">Productos</a></li>
-                    <li><a href="./politicas_de_devolucion.html">Politicas de devolucion</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            
-        </div>
+        <nav class="menu-principal">
+            <ul>
+                <li class="menu-item"><a href="../index.html">Home</a></li>
+                <li class="menu-item"><a href="./productos.html">Productos</a></li>
+                <li class="menu-item"><a href="./blog_de_belleza.html">Blog de belleza</a></li>
+                <li class="menu-item"><a href="./politicas_de_devolucion.html">Politicas de devolucion</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
@@ -63,12 +60,30 @@
     </main>
 
     <footer>
-        <div class="newsletter-container">
-            <h3>SUSCRÍBETE</h3>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Tu correo electrónico">
-                <button type="submit">Suscribir</button>
-            </form>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="./sobre_nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="./terminos_y_condiciones.html">Términos y condiciones</a></li>
+                    <li><a href="./politicas_de_privacidad.html">Política de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./donde_encontrarnos.html">Donde encontrarnos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="redes-sociales">
+                    <img src="../img/facebook.png" alt="Facebook">
+                    <img src="../img/instagram.png" alt="Instagram">
+                    <img src="../img/whatsapp.png" alt="Whatsapp">
+                </div>
+            </div>
         </div>
     </footer>
 </body>
