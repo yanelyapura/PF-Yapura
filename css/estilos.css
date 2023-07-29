@@ -1,11 +1,4 @@
 @charset "UTF-8";
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #556b2f;
-}
-
 /* Estilos del header */
 .header {
   background-color: #2d302f;
@@ -123,15 +116,6 @@ body {
   }
 }
 
-.container {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: #f7f7f7;
-  border-radius: 5px;
-  box-shadow: 0px 0px 15px rgba(61, 76, 126, 0.1);
-}
-
 /* Estilos para el footer */
 footer {
   background-color: #2d302f;
@@ -166,6 +150,22 @@ footer .redes-sociales img {
 footer .redes-sociales img:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #556b2f;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(61, 76, 126, 0.1);
 }
 
 main {
@@ -269,7 +269,6 @@ main {
 }
 .productos .grid-productos .producto img {
   flex: 1;
-  /* Ocupar todo el espacio disponible */
   width: 300px;
   height: 300px;
   object-fit: scale-down;
@@ -306,36 +305,6 @@ main {
   color: #333;
   font-size: 16px;
   line-height: 1.5;
-}
-
-.footer-container {
-  padding: 20px;
-  color: #fff;
-}
-
-.footer-section h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section a {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.3s ease;
-}
-
-.footer-section a:hover {
-  color: #f2f2f2;
-}
-
-.redes-sociales img {
-  width: 30px;
-  margin-right: 10px;
 }
 
 .politicas-de-privacidad {
@@ -641,42 +610,6 @@ main {
 }
 .container-devolucion .contact-info a:hover {
   color: #32bea0;
-}
-
-/* Estilos del footer */
-footer {
-  background-color: #2d302f;
-  padding: 20px;
-  color: #fff;
-}
-footer .footer-container {
-  display: flex;
-  justify-content: space-between;
-}
-footer .footer-section h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-footer .footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-footer .footer-section ul li {
-  margin-bottom: 5px;
-}
-footer .footer-section ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-footer .footer-section ul li a:hover {
-  text-decoration: underline;
-}
-footer .redes-sociales img {
-  margin-right: 10px;
-}
-footer .redes-sociales img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,50 @@
+/* Estilos para el footer */
+footer {
+    background-color: #2d302f;
+    padding: 20px;
+    color: #fff;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 5px;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .redes-sociales {
+        img {
+            margin-right: 10px;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: transform 0.3s ease;
+            }
+        }
+    }
+}
+
+
+
