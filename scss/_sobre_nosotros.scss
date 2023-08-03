@@ -1,0 +1,28 @@
+@import 'variables';
+
+.quienes-somos {
+    padding: 20px;
+    background-color: #f7f7f7;
+
+    h1 {
+        color: #333;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #333;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+}
