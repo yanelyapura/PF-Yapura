@@ -554,7 +554,7 @@ footer .redes-sociales img:hover {
 .productos-destacados .producto a {
   display: block;
   text-decoration: none;
-  color: #09090a;
+  color: #000000;
 }
 .productos-destacados .producto a img {
   width: 300px;
